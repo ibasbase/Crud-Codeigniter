@@ -1,0 +1,11 @@
+Basic Crud
+CRUD Basic codeigniter : 
+1. save,
+2. edit,
+3. delete,
+4. search,
+5. refresh.
+
+Creat : Muhammad Nibras Abilowo (Ibas)
+email : muhammadnibras1@gmail.com
+hp    : 089 71 678 144

@@ -1,0 +1,82 @@
+#container{
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#header{
+	height: 150px;
+	background-color: #abcd18;
+}
+
+#menu{
+	height: 60px;
+	background-color: #adfa23;
+}
+
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li{
+	list-style-type: none; /*untuk menghilangkan titik list*/
+	float: left; /*untuk jadi menu kesamping*/
+	display: block;
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px; /*tinggi garis*/
+	font-family: tahoma, sans-serif;
+	font-size: 17px;
+}
+
+#menu li a{
+	text-decoration: none; /*untuk mematikan underline*/
+	color: #fff;
+}
+
+#menu li:hover{
+	background-color: #ccc; /*untuk mewarnai li ketika di sorot kursor*/
+}
+
+#menu ul li:hover ul{
+	display: block; /*untuk memunculkan sub link*/
+}
+
+#menu ul ul{
+	display: none;
+	list-style: none;
+	position: absolute;
+	background-color: orange;
+} /*untuk mengatur secara default sublink tidak tampil, sublink akan tampil ketika lonk utama di sorot/hover*/
+
+#menu ul ul li a{
+	float: none;
+	display: block;
+	text-align: center;
+	width: 150px;
+} /*untuk mengatur sublink*/
+
+#sidebar{
+	width: 250px;
+	height: 400px;
+	background-color: #aaad12;
+	float: left;
+}
+
+#content{
+	width: 750px;
+	height: 400px;
+	background-color: #ffff42;
+	float: right;
+}
+
+#footer{
+	height: 150px;
+	background-color: #acdb12;
+	clear: both;
+}
